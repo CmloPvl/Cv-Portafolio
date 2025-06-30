@@ -1,0 +1,61 @@
+
+
+
+
+body {
+  font-family: LibertinusMono-Regular;
+  background-image: linear-gradient(rgb(116, 174, 225), rgb(240, 220, 220));
+  color: rgb(0, 0, 0)
+
+}
+
+@font-face {
+  font-family: 'LibertinusMono-Regular';
+  src: url('/assets/fonts/Libertinus_Mono/LibertinusMono-Regular.ttf') format('truetype');
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px 40px 30px 5px / 70px 70px 40px 20px;   /* 4 parámetros (x / y) */
+}
+
+
+.navbar-brand {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+
+}
+
+.navbar-toggler {
+  font-family: Jost, sans-serif;
+  font-size: 1rem;
+
+  padding: 1rem 2rem;
+  background: none;
+  color: #fff;
+
+  border-image-source: linear-gradient(rgb(169, 159, 177), rgb(161, 152, 152), rgb(134, 206, 202));
+  border-image-slice: 1 1 1 1;
+  border-image-width: 0.25rem;
+
+  &.fill {
+    border-image-slice: 1 1 1 1 fill;
+  }
+}
+
+main ol {
+  margin: 0;
+}
+
+footer {
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+  padding: 10px;
+}
+
+
