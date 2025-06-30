@@ -11,7 +11,7 @@ body {
 
 @font-face {
   font-family: 'LibertinusMono-Regular';
-  src: url('/assets/fonts/Libertinus_Mono/LibertinusMono-Regular.ttf') format('truetype');
+  src: url('../fonts/Libertinus_Mono/LibertinusMono-Regular.ttf') format('truetype');
 }
 
 header img {
