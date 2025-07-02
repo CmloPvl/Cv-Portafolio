@@ -17,7 +17,9 @@ body {
 header img {
     width: 200px;
     height: 200px;
-    border-radius: 30px 40px 30px 5px / 70px 70px 40px 20px;   /* 4 parámetros (x / y) */
+    border-radius: 100px 70px 70px 70px / 70px 70px 40px 20px;   /* 4 parámetros (x / y) */
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -58,4 +60,7 @@ footer {
   padding: 10px;
 }
 
-
+.parrafo-carrera {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
